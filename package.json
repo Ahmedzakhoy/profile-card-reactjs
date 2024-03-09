@@ -1,5 +1,6 @@
 {
   "name": "profile-card-reactjs",
+  "homepage": "http://ahmedzakhoy.github.io/profile-card-reactjs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run bui;d",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
